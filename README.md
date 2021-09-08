@@ -158,26 +158,3 @@ strings should be passed as arguments.  This `-` is on index 3.
 
 Creates a PassThrough stream that can get piped text manually
 (text or files).
-
-#### `osascript.file(file[, options: Object, callback:function (err, data)])`
-See `options` as defined above.
-
-If callback function is passed, the buffered output from
-the OSA is passed as data (initiates the data immediately)
-
-#### `osascript.eval(scriptText[, options: Object, callback:function (err, data)])`
-`scriptText` is script in the language type as defined.
-
-See `options` as defined above.
-
-If callback function is passed, the buffered output from
-the OSA is passed as data (initiates the data immediately)
-
-## TODO
-
-* [ ] Tests
-* [x] Error handling
-
-## License
-
-[MIT License](LICENSE)
